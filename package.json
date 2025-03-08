@@ -2,7 +2,7 @@
   "name": "dddignore",
   "displayName": "dddignore",
   "description": "Language support for .dddignore file types",
-  "publisher": "Zach Dodson",
+  "publisher": "zdodson",
   "version": "0.0.1",
   "icon": "./icons/dddignore.png",
   "repository": {
