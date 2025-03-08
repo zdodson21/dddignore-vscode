@@ -1,0 +1,10 @@
+{
+  "scopeName": "source.dddignore",
+  "name": "dddignore",
+  "patterns": [
+    {
+      "name": "comment.line.number-sign.dddignore",
+      "match": "#.*$"
+    }
+  ]
+}

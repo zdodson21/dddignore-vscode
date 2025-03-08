@@ -1,0 +1,31 @@
+{
+  "name": "dddignore",
+  "displayName": "dddignore",
+  "description": "Language support for .dddignore file types",
+  "publisher": "Zach Dodson",
+  "version": "0.0.1",
+  "icon": "./icons/dddignore.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zdodson21/dddignore-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "dddignore",
+      "aliases": ["dddignore"],
+      "extensions": [".dddignore"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dddignore",
+      "scopeName": "source.dddignore",
+      "path": "./syntaxes/dddignore.tmLanguage.json"
+    }]
+  }
+}
